@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS</title>
+    <link rel="stylesheet" href="../public/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="text-gray-600 font-body w-ful">
+    <div class="grid md:grid-cols-3">
+      <div class="col-span-1">
+        <nav class="nav">
+          <div>
+            <h1 class="logo">
+              <a href="#">Siiv Food</a>
+            </h1>
+          </div>
+          <ul class="grid grid-cols-3 gap-2">
+            <li class="text-gray-700">
+              <a href="#" class="hover:text-three-500 transition-all duration-200 font-semibold">
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-three-500 transition-all duration-200 font-semibold">
+                <span>About</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-three-500 transition-all duration-200 font-semibold">
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <main class="px-16 py-6 bg-gray-100 md:col-span-2">
+        <div class="flex justify-end">
+          <a href="#" class="btn mr-3">Login</a>
+          <a href="#" class="btn">SignUp</a>
+        </div>
+
+        <header>
+          <h2 class="text-gray-700 text-6xl font-semibold">Recipes</h2>
+          <h3 class="text-3xl">For Food</h3>
+        </header>
+        <div>
+          <h4 class="font-bold mt-12 pb-2 border-b border-gray-300">Latest Recipes</h4>
+
+          <div class="mt-8 grid md:grid-cols-3 sm:grid-rows-3 gap-4">
+            <!-- Card -->
+            <div class="card">
+              <div class="badges flex justify-center items-center">
+                <svg
+                  class="w-6 mr-1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span class="">25 mins</span>
+              </div>
+              <img
+                src="img/burger.jpg"
+                class="w-full md:h-64 sm:h-48 lg:h-80 object-cover"
+                alt="burger"
+              />
+              <div class="m-4">
+                <span class="font-bold">Burger Mekdi</span>
+                <span class="block text-gray-500 text-sm">Recipe by Tailwind</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="badges flex justify-center items-center">
+                <svg
+                  class="w-6 mr-1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span class="">25 mins</span>
+              </div>
+              <img
+                src="img/food1.png"
+                class="w-full md:h-64 sm:h-48 lg:h-80 object-cover bg-gray-400"
+                alt="burger"
+              />
+              <div class="m-4">
+                <span class="font-bold">Mie Mekdi</span>
+                <span class="block text-gray-500 text-sm">Recipe by Tailwind</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="badges flex justify-center items-center">
+                <svg
+                  class="w-6 mr-1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span class="">25 mins</span>
+              </div>
+              <img
+                src="img/bowlFood.jpg"
+                class="w-full md:h-64 sm:h-48 lg:h-80 object-cover"
+                alt="burger"
+              />
+              <div class="m-4">
+                <span class="font-bold">Ramen</span>
+                <span class="block text-gray-500 text-sm">Recipe by Tailwind</span>
+              </div>
+            </div>
+          </div>
+          <h4 class="font-bold mt-12 pb-2 border-b border-gray-300">Most Popular</h4>
+
+          <div class="mt-8">
+            <!-- Card -->
+          </div>
+          <div>
+            <div class="">
+              <h1
+                class="
+                  transition-all
+                  duration-300
+                  ease-out
+                  text-gray-200
+                  hover:text-green-500
+                  bg-green-500
+                  hover:bg-white
+                  px-4
+                  py-2
+                  hover:scale-150
+                  rounded-full
+                  font-semibold
+                  tracking-wider
+                  border-2
+                  hover:border-green-500
+                  w-max
+                  cursor-pointer
+                "
+              >
+                Load More
+              </h1>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
