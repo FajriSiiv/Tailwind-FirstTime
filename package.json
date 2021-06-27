@@ -2,7 +2,8 @@
   "name": "tailwindsetup",
   "version": "1.0.0",
   "description": "",
-  "main": "public/index.js",
+  "main": "index.js",
+  "homepage": ".",
   "scripts": {
     "build-css": "tailwindcss build src/style.css -o public/style.css",
     "rebuild-css": "npx tailwindcss-cli@latest build -i src/style.css -o public/style.css"
