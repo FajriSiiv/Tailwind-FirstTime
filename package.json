@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": ".",
+  "homepage": "public/index.html",
   "scripts": {
     "build-css": "tailwindcss build src/style.css -o public/style.css",
     "rebuild-css": "npx tailwindcss-cli@latest build -i src/style.css -o public/style.css"
